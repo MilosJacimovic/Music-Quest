@@ -1,0 +1,116 @@
+form {
+	font-size:24;
+	color:#FFFFFF
+}
+
+h1 {
+	font-size: 55px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.topnav {
+  background-color: #DAAD86;
+  overflow: hidden;
+  top:0%;
+  left:0%;
+  width:100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #659DBD;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #659DBD;
+  color: white;
+}
+
+
+/*NOVO*/
+
+.container{
+  
+}
+
+body{
+  background-image: url("Resources/Background2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  margin-top: 150px;
+  margin-left:60px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+small{
+  margin-left: 80px;
+}
+
+.list-group-item:focus{
+  background-color: #007bff;
+  color:white;
+}
+
+.collapse{
+  margin-bottom: 10px;
+}
+
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.btn-sm{
+  width:80px;
+}
+
+.formRating{
+  color:black;
+}
+
+.accrej{
+  margin-top: 10px;
+}

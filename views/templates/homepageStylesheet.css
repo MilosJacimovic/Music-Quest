@@ -1,0 +1,216 @@
+h1 {
+    color:#FFFFFF;
+    text-align:center;
+    font-size:32px;
+}
+
+p {
+    text-align:center;  
+    color:#FFFFFF; 
+    font-size:28px
+}
+
+th {
+    font-size:28px; 
+    color:black; 
+    text-align:left
+}
+
+td.searchTDs {
+    font-size:18px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+img.suggestedPics {
+    width:60%;
+    height:150px;
+    border-width:5px;
+    border-color:black;
+}
+
+tr {
+    text-align:center;
+}
+
+td.suggestionTable {
+    width:25%;
+    font-size:20px;
+}
+
+td.coopTD {
+    width:25%;
+    height:100px;
+}
+
+img.coopPictures {
+    height:150px;
+    width:100%;
+}
+
+#searchClass {
+    text-align:left;
+}
+
+a {
+    color:#FFFFFF;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 21px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.topnav {
+    background-color: #DAAD86;
+    overflow: hidden;
+    top:0%;
+    left:0%;
+    width:100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #659DBD;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #659DBD;
+    color: white;
+}
+
+/*NOVA VERZIJA*/
+
+.container {
+    margin-top: 70px;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height:240px;
+}
+
+html {
+    height:100%;
+}
+
+.HomePageText {
+    font-weight: 500;
+    font-size: 2em;
+    color:#f8f9fa;
+    text-shadow: 2px 2px rgba(0,0,0,.5);
+    text-align: center;
+}
+.slider {
+    background-color: rgb(255,50,100);
+}
+
+.card-title {
+    color:black;
+}
+.carousel-inner, .carousel {
+    width:70%;
+    margin:auto;
+}
+.carousel {
+    width:70%;
+    margin:auto;
+}
+.carousel-item, .carousel-item img {
+    height:300px;
+}
+.card {
+    background-color:#f8f9fa;
+}
+#navbar-username {
+    color:black;
+    font-weight: 400;  
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
